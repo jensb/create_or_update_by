@@ -1,12 +1,18 @@
 CreateOrUpdateBy
 ================
 
-Idea and introduction:
-http://www.intridea.com/2008/2/19/activerecord-base-create_or_update-on-steroids-2
+This plugin mimicks something like MySQL REPLACE INTO mechanism, in which you
+can specify a primary key, and depending on whether a record exists already, it
+will be replaced or newly created.
 
-Idea for extension to include two find parameters / conditions:
-http://github.com/jeremymcanally/docbox/tree/57215361c3a585a9608bee25cd6e4659c780ff17/lib/core_ext.rb
+This plugin does the same, but allows not only primary keys to be specified as search
+conditions, but ANY column, or ANY two columns.
 
+Idea and longer introduction:
+  http://www.intridea.com/2008/2/19/activerecord-base-create_or_update-on-steroids-2
+
+Idea for extension to include two find parameters / conditions (found via Google):
+  http://github.com/jeremymcanally/docbox/tree/57215361c3a585a9608bee25cd6e4659c780ff17/lib/core_ext.rb
 
 Tests, pluginization and documentation: me.
 
