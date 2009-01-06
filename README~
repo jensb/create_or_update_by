@@ -1,0 +1,14 @@
+CreateOrUpdateBy
+================
+
+Idea and introduction:
+http://www.intridea.com/2008/2/19/activerecord-base-create_or_update-on-steroids-2
+
+Extension to include two find parameters / conditions:
+http://github.com/jeremymcanally/docbox/tree/57215361c3a585a9608bee25cd6e4659c780ff17/lib/core_ext.rb
+
+
+Tests, pluginization and documentation: me.
+
+
+Copyright (c) 2009 Jens Benecke <jens-rails@spamfreemail.de>, released under the MIT license.

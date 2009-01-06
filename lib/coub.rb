@@ -1,0 +1,1 @@
+require 'coub/activerecord_core_ext'
